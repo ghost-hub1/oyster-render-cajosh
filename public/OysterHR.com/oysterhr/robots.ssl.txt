@@ -1,0 +1,7 @@
+# www.oysterhr.com robots.txt
+
+User-Agent: *
+Allow: /
+Disallow: /thank-you/
+
+Sitemap: https://www.oysterhr.com/sitemap.xml

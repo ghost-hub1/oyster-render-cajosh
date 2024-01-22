@@ -1,0 +1,89 @@
+body.login {
+    background:white;
+    font-family: "Open Sans";
+}
+body.login div#login {
+    padding: 2% 0 0;
+    width: 400px;
+}
+
+body.login div#login h1 {
+    font-weight: normal;
+    font-size: 26px;
+    margin-bottom: 35px;
+    line-height: 40px;
+}
+body.login div#login h1 a {}
+body.login div#login h1 a {
+    background-image: url("../images/papaya-logo.png");
+    background-size: contain;
+    background-position: center top;
+    background-repeat: no-repeat;
+    color: #444;
+    height: 80px;
+    font-size: 20px;
+    line-height: 1.3em;
+    margin: 0 auto 25px;
+    padding: 0;
+    width: 100%;
+    text-indent: -9999px;
+    outline: 0;
+    display: block;
+}
+body.login div#login form#loginform {
+    box-shadow: none;
+}
+body.login div#login form#loginform p {}
+body.login div#login form#loginform p label {}
+body.login div#login form#loginform input[type=text],body.login div#login form#loginform input[type=password] {
+    border: none;
+    background: white;
+    box-shadow: none;
+    border-bottom: 1px solid black;
+}
+body.login div#login form#loginform input#user_login {}
+body.login div#login form#loginform input#user_pass {}
+body.login div#login form#loginform p.forgetmenot {}
+body.login div#login form#loginform p.forgetmenot input#rememberme {}
+body.login div#login form#loginform p.submit {}
+body.login div#login form#loginform p.submit input#wp-submit {
+    width: 100%;
+    margin-top: 35px;
+    font-size: 18px;
+    height: 40px;
+}
+body.login div#login p#nav {}
+body.login div#login p#nav {
+    float: right;
+    margin: 0;
+}
+body.login div#login p#backtoblog {}
+body.login div#login p#backtoblog a {}
+.login label {
+    font-size: 0;
+    color: #ffffff;
+}
+.login form .forgetmenot label {
+    font-size: 12px;
+    color: #72777c;
+    line-height: 19px;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:#72777c;
+    font-size:16px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:#72777c;
+    font-size:16px;
+    opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:#72777c;
+    font-size:16px;
+    opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:#72777c;
+    font-size:16px;
+}

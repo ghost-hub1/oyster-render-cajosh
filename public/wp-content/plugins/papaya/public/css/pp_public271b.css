@@ -1,0 +1,180 @@
+/* Public CSS file*/
+.pp_wrapper {
+    float: left;
+    font-family: "Open Sans";
+    font-size: 15px;
+    line-height: 22px;
+    padding: 45px;
+    text-align: center;
+    width: 650px;
+}
+
+
+.pp_wrapper .main_image {
+    height: auto;
+    max-width: 100%;
+    margin: 35px 0;
+}
+
+.pp_wrapper .large_text, .thankyou_wrap .main_title {
+    font-size: 26px;
+    line-height: 38px;
+    margin-bottom: 35px;,
+padding-top: 0;
+}
+
+.pp_wrapper .body_text {
+    margin-bottom: 50px;
+}
+
+.pp_wrapper .buttons {
+    float: left;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.pp_wrapper .buttons .gfield_radio li {
+    background: #ececec none repeat scroll 0 0;
+    box-shadow: 3px 3px 5px #ececec;
+    float: left;
+    padding: 10px !important;
+    width: 250px !important;
+    height: 45px !important;
+}
+
+.pp_wrapper .buttons .gfield_radio li:first-child {
+    background: #2ed6bc none repeat scroll 0 0;
+    color: white;
+    margin-right: 7%;
+}
+
+.pp_wrapper .buttons .gfield_radio li:nth-child(2) {
+
+}
+
+.pp_wrapper .buttons .gfield_radio li:nth-child(2) label {
+}
+
+.pp_wrapper .button.good_pay {
+    margin-right: 0;
+}
+
+.pp_wrapper .button input {
+    float: left;
+    margin-right: 15px;
+}
+
+.pp_wrapper .button label {
+    color: white;
+    float: left;
+    font-size: 16px;
+    line-height: 10px;
+}
+
+.pp_wrapper .form_wrap {
+    float: left;
+    padding: 5px;
+    width: 100%;
+}
+
+.pp_wrapper .button.bad_pay > label {
+    color: #b0b0b8;
+}
+
+.pp_wrapper .button.good_pay > label {
+    font-weight: 600;
+}
+
+.pp_wrapper .form_wrap input {
+    border: none;
+    border-bottom: 1px solid #c1c1c3;
+    margin-bottom: 15px;
+}
+
+.pp_wrapper .form_wrap textarea {
+    margin-bottom: 35px;
+}
+
+.pp_wrapper .submit-form {
+    background: #2883d2 none repeat scroll 0 0;
+    font-weight: 600;
+    width: 100%;
+}
+
+.pp_wrapper .gfield_label {
+    display: none;
+}
+
+.pp_wrapper .form_wrap.register_form .gfield_label {
+    display: none !important;
+}
+
+.pp_wrapper .gform_wrapper input {
+    width: 100% !important;
+    border: none;
+    border-bottom: 1px solid #E9E9EA;
+}
+
+.pp_wrapper .gform_wrapper textarea {
+    width: 100% !important;
+    border: 1px solid #E9E9EA !important;
+}
+
+.pp_wrapper .gform_wrapper .gform_footer {
+    margin-left: 0 !important;
+    width: 97% !important;
+}
+
+.pp_wrapper .gform_wrapper .gform_footer input {
+    background: #2883d2 none repeat scroll 0 0;
+    font-weight: 600;
+}
+
+.pp_wrapper .gform_wrapper .gform_footer input:hover {
+    background: #116CBB none repeat scroll 0 0;
+    cursor: pointer;
+}
+.pp_wrapper .buttons .gfield_radio li input {
+    display: none !important;
+}
+
+.thankyou_wrap {
+    text-align: center;
+}
+
+.pp_wrapper .register_full_name label {
+    display: none !important;
+}
+
+.pp_error_msg {
+    font-weight: bold;
+    color: red;
+    margin-bottom: 6px;
+    border: 1px solid #ececec;
+}
+
+.pp_error_msg a {
+    color: #2883d2;
+    text-decoration: underline;
+}
+
+.pp_wrapper .buttons .gfield_radio li label {
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+}
+
+@media (max-width: 650px) {
+    .pp_wrapper {
+        width: 100%;
+    }
+    .pp_wrapper .buttons .gfield_radio li {
+        padding: 5px !important;
+        width: 100% !important;
+    }
+
+    .pp_wrapper .buttons .gfield_radio li label {
+        font-size: 17px;
+        text-align: center;
+    }
+}
